@@ -1,0 +1,2 @@
+﻿  test.cpp
+LINK : fatal error LNK1168: 无法打开 D:\Software\code\regression\cpp03\x64\Debug\cpp03.exe 进行写入

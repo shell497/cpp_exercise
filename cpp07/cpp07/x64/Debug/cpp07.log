@@ -1,0 +1,21 @@
+﻿  test.cpp
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244: “return”: 从“T2”转换到“T1”，可能丢失数据
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         with
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         [
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:             T2=double
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         ]
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         and
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         [
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:             T1=int
+D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11): warning C4244:         ]
+      D:\Software\code\regression\cpp07\cpp07\test.cpp(61,11):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\Software\code\regression\cpp07\cpp07\test.cpp(65,10):
+          查看对正在编译的函数 模板 实例化“T1 swap<int,double>(T1,T2)”的引用
+          with
+          [
+              T1=int,
+              T2=double
+          ]
+  
+  cpp07.vcxproj -> D:\Software\code\regression\cpp07\x64\Debug\cpp07.exe
